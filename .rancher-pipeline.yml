@@ -1,6 +1,8 @@
-timeout: 60
 stages:
 - name: Deploy
   steps:
+  - {}
   - applyYamlConfig:
-    path: ./pod.yml
+      path: ./pod.yaml
+timeout: 60
+notification: {}
