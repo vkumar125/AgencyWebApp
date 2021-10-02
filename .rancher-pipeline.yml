@@ -3,4 +3,4 @@ stages:
 - name: Deploy
   steps:
   - applyYamlConfig:
-    path: ./pod.yaml
+    path: ./pod.yml
