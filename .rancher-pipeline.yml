@@ -3,6 +3,7 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./kubia-svc.yml
-      targetNamespace: default
+  - applyYamlConfig:
+      path: ./replicaset-kubia.yml
 timeout: 60
 notification: {}
