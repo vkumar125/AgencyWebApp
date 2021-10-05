@@ -3,5 +3,6 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./kubia-svc.yml
+      targetNamespace: default
 timeout: 60
 notification: {}
