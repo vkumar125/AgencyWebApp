@@ -2,6 +2,6 @@ stages:
 - name: Deploy
   steps:
   - applyYamlConfig:
-      path: ./pod.yml
+      path: ./kubia-svc.yml
 timeout: 60
 notification: {}
