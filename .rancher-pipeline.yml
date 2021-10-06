@@ -5,5 +5,9 @@ stages:
       path: ./kubia-svc.yml
   - applyYamlConfig:
       path: ./replicaset-kubia.yml
+  - applyYamlConfig:
+      path: ./kubia-nodeport.yml
+  - applyYamlConfig:
+      path: ./ingress-service.yml
 timeout: 60
 notification: {}
